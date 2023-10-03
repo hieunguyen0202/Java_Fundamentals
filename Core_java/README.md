@@ -31,7 +31,23 @@ Class.forName(className:"className");
 ## 56. Dynamic Method Dispatch
 
 ## 57. Final keyword
-
+#### [final variables](https://github.com/markdown-it/markdown-it-emoji) 
+final = const in C++
+```java
+final int num = 8;
+can't: num = 9;
+```
+#### [class variables](https://github.com/markdown-it/markdown-it-emoji) 
+- Can't inheritent
+```java
+final class A
+{
+}
+//Can not do like this:
+class B extends A
+{
+}
+``` 
 ## 58. Object Class equals toString hashcode
 
 ## 59. Upcasting and Downcasting
