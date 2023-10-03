@@ -32,13 +32,13 @@ Class.forName(className:"className");
 
 ## 57. Final keyword
 #### [final variables](https://github.com/markdown-it/markdown-it-emoji) 
-final = const in C++
+- final = const in C++
 ```java
 final int num = 8;
 can't: num = 9;
 ```
 #### [class variables](https://github.com/markdown-it/markdown-it-emoji) 
-- Can't inheritent
+- Can't inheritant
 ```java
 final class A
 {
@@ -47,7 +47,9 @@ final class A
 class B extends A
 {
 }
-``` 
+```
+#### [method variables](https://github.com/markdown-it/markdown-it-emoji) 
+- Can not override this method
 ## 58. Object Class equals toString hashcode
 
 ## 59. Upcasting and Downcasting
