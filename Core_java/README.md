@@ -119,6 +119,39 @@ public class Demo
       }
    } 
 ```
+#### [Custom Exception](https://github.com/markdown-it/markdown-it-emoji) 
+```java
+
+class CustomException extends Exception
+{
+   public CustomException(String string)
+   {
+      super(string);
+   }
+}
+ public static void main(String[] arg[])
+   {
+      int i = 20;
+      int j = 0;
+      try
+      {
+         j = 18/i;
+         if(j == 0)
+         {
+            throw new CustomException("I don't want to devide by big number");
+         }
+      }
+      catch(CustomException e)
+      {
+            j = 18/1;
+            System.out.println("That is the dafault output" + e);
+      }
+      catch(Exceoption e)
+      {
+            System.out.println("Something went wrong" + e);
+      }
+   } 
+```
 ## Thread
 
 ## 96. Collection API
