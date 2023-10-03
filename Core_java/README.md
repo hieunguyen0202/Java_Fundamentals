@@ -51,9 +51,37 @@ class B extends A
 #### [method variables](https://github.com/markdown-it/markdown-it-emoji) 
 - Can not override this method
 ## 58. Object Class equals toString hashcode
-
+- override method(): toString()
+- equals(Object obj)
 ## 59. Upcasting and Downcasting
-
+#### [Downcasting](https://github.com/markdown-it/markdown-it-emoji) 
+```java
+class A
+{
+   public void show1()
+   {
+   
+   }
+}
+class B extends A
+{
+   public void show2()
+   {
+   
+   }
+}
+public class Demo
+{
+   public static void main(String[] arg[])
+   {
+      // This is Upcasting: A obj = (A) new B();
+      A obj = new B();
+      obj.show1();
+      B obj1 = (B) obj;
+      obj1.show2();
+   } 
+}
+```
 ## 60. Wrapper Class
 
 ## Exception
