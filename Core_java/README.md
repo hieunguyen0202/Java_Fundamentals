@@ -25,7 +25,9 @@ static
 Class.forName(className:"className");
 ```
 ## 54. Access Modifiers
-
+- By the daufault is call default access modifiers. It means it can be accessed in the same package.
+- Using private: it means it can be accessed in the same class.
+- Using protected: you can't use it outside the package. it works in the same package and subclass.
 ## 56. Dynamic Method Dispatch
 
 ## 57. Final keyword
