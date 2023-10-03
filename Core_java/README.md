@@ -5,12 +5,25 @@
 - JRE: Java Runtime Environment
 
 ## Static
-#### [static variables](https://github.com/markdown-it/markdown-it-emoji) 
+#### [Static variables](https://github.com/markdown-it/markdown-it-emoji) 
 Static variables is shared by all the object. If yuo want to refer a static variable, you can use a class name. Eg. ClassName.variableStatic
-#### [static method](https://github.com/markdown-it/markdown-it-emoji) 
+#### [Static method](https://github.com/markdown-it/markdown-it-emoji) 
 - Using it: ClassName.method();
 - Using static variable inside static method
 - If not using static method for main, deadlock occur because you need to create object for main, and the main is the start point for execution.
+#### [static block](https://github.com/markdown-it/markdown-it-emoji) 
+```java
+static String name;
+static
+{
+   name = "Create Name";
+}
+```
+- Whenever creating the object, the static block will be invoked firstly
+- If you don't create a object, you can use it code to call static block (It's means that class load)
+```java
+Class.forName(className:"className");
+```
 ## 54. Access Modifiers
 
 ## 56. Dynamic Method Dispatch
