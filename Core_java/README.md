@@ -1,8 +1,8 @@
 # Java_Fundamentals
 ## 23. JDK JRE JVM
-JDK: Java Dvelopment Kit is a tool that using compile the java code to byte code
-JVM: Java Virtual Machine that means you have to run the code on it
-JRE: Java Runtime Environment
+* JDK: Java Dvelopment Kit is a tool that using compile the java code to byte code
+* JVM: Java Virtual Machine that means you have to run the code on it
+* JRE: Java Runtime Environment
 
 ## Static
 
